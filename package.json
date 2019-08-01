@@ -11,18 +11,14 @@
     "typeorm": "ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js --config src/database/ormconfig.ts"
   },
   "dependencies": {
-    "@keyv/sqlite": "^2.0.0",
     "@types/convict": "^4.2.1",
-    "@types/keyv": "^3.1.0",
     "chalk": "^2.4.2",
     "convict": "^4.4.1",
     "discord.js": "^11.4.2",
     "dotenv-safe": "^6.1.0",
-    "keyv": "^3.1.0",
     "moment": "^2.24.0",
     "pg": "^7.11.0",
     "reflect-metadata": "^0.1.13",
-    "sqlite3": "^4.0.9",
     "ts-node": "^8.0.2",
     "tsconfig-paths": "^3.8.0",
     "typeorm": "^0.2.18",
@@ -32,7 +28,6 @@
   "devDependencies": {
     "@types/dotenv-safe": "^5.0.3",
     "@types/node": "^12.6.4",
-    "@types/sqlite3": "^3.1.5",
     "nodemon": "^1.18.9"
   }
 }
